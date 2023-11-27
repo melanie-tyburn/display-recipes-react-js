@@ -1,0 +1,23 @@
+.instructions-content {
+    ol {
+        list-style-type: none;
+        text-align: left;
+        background-color: #d3d3d35c;
+        border-radius: 15px;
+
+        li::before {
+            content: "";
+            display: inline-block;
+            width: 20px; 
+            height: 0.5px; 
+            background-color: orange; 
+            margin-right: 10px; 
+        }
+
+        li{
+            display:flex;
+            align-items: center;
+            padding: 10px 0px;
+        }
+    }
+}
